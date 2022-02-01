@@ -1,0 +1,12 @@
+/* style.css */
+
+
+/* using this style.css to style the text inside the div-tag */
+div {
+    color: white;
+    background-color: red;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
