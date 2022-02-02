@@ -1,16 +1,22 @@
-/* README.md has these instructions 
-All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
-The second element**: blue text and a font size of 36px
-The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
-The fourth element**: a light green background, a font size of 24px, and bold
 
-odd numbered elements = the one's that have tag <p>
-2nd element = <div>
-3rd element = <p>
-4th element = <div>
-*/
-
-p{
-    background-color: pink;
+/* elements with normal and cool classes get these stylesettings  */
+.normal,
+.cool{
+    background-color: rgb(243, 180, 191);
     font-family: Verdana, DejaVu Sans, sans-serif;
+}
+/* cool class has it's own font size*/
+.cool {
+    font-size: 24px;
+}
+/* ID 'two' gets these*/
+#two {
+    color: rgb(92, 92, 240);
+    font-size: 36px;
+}
+/* ID 'four' gets these*/
+#four {
+    background-color: rgb(136, 238, 136);
+    font-size: 24px;
+    font-weight: bold;
 }
