@@ -7,21 +7,39 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
-  background: #e3f4ff;
+background: #e3f4ff;
+margin-top: 0px;
+margin-bottom: 8px;
+padding: 8px;
+font-size: 16px;
+
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
 }
+
+/* 
+Had to use "display: block" since button is a inline element and will appear next to the text inside button-container isntead of below the text. 
+"margin: 0 auto;" centers the button, since block elements cannot be alligned with text-align
+*/
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  display: block;
+  margin: 0 auto;
 }
