@@ -7,7 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; /* header goes to TOP, Content to middle and footer to bottom*/
 }
 .header{
   display: flex;
@@ -23,14 +23,13 @@ body {
 .footer{
   display: flex;
   justify-content: space-between; /* puts space between the left/right UL/LI elements in footer*/
-  /* margin-top: auto; */ /* causes the footer to stick to the bottom*/
   background-color: rgb(238, 238, 238);
 }
 .right-links {
-  padding-right: 15px;
+  padding-right: 8px;
 }
 .left-links {
-  padding-left: 15px;
+  padding-left: 8px;
 }
 
 img {
@@ -43,6 +42,8 @@ button {
   border-radius: 8px;
   background: rgb(238, 238, 238);
   padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 input {
@@ -60,5 +61,5 @@ li{
 a{
   color: grey;
   text-decoration: none;
-  padding: 5px;
+  padding: 4px;
 }
