@@ -26,12 +26,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around; /* centers the text and   spreads the background/padding across the footer*/
+
 }
 .middle {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  flex: 1 0 auto; /* fills up the entire body between header and footer. Also prevents the containers from shrinking*/
+  flex: 1 0 auto;
 }
 .sidebar { /* Done */
   width: 300px;
@@ -43,14 +44,25 @@ body {
 }
 .card_section {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  flex: 0 1 auto;
+  padding: 48px;
+  gap: 32px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  height: auto; /* height had to be set auto. Now the heigth will change to match the available space*/
+  display: flex;
+  flex: 0 1 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: start;
 }
 ul { /* Done */
   list-style: none;
